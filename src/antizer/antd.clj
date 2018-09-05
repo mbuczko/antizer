@@ -2,8 +2,6 @@
 
 (def components '[Affix
                   Alert
-                  Anchor
-                  Anchor.Link
                   AutoComplete
                   AutoComplete.OptGroup
                   AutoComplete.Option
@@ -14,25 +12,17 @@
                   Breadcrumb.Item
                   Button
                   Button.Group
-                  Calendar
                   Card
                   Card.Grid
                   Card.Meta
-                  Carousel
-                  Cascader
                   Checkbox
                   Checkbox.Group
                   Col
-                  Collapse
-                  Collapse.Panel
                   DatePicker
                   DatePicker.MonthPicker
                   DatePicker.RangePicker
                   DatePicker.WeekPicker
                   Divider
-                  Drawer
-                  Dropdown
-                  Dropdown.Button
                   Form
                   Form.Item
                   Icon
@@ -46,9 +36,6 @@
                   Layout.Footer
                   Layout.Header
                   Layout.Sider
-                  List
-                  List.Item
-                  List.Item.Meta
                   LocaleProvider
                   Mention
                   Mention.Nav
@@ -58,26 +45,18 @@
                   Menu.ItemGroup
                   Menu.SubMenu
                   Modal
-                  Pagination
-                  Popconfirm
-                  Popover
                   Progress
                   Radio
                   Radio.Button
                   Radio.Group
-                  Rate
                   Row
                   Select
                   Select.OptGroup
                   Select.Option
-                  Slider
                   Spin
                   Steps
                   Steps.Step
                   Switch
-                  Table
-                  Table.Column
-                  Table.ColumnGroup
                   Tabs
                   Tabs.TabPane
                   Tag
@@ -86,11 +65,6 @@
                   Timeline
                   Timeline.Item
                   Tooltip
-                  Transfer
-                  Tree
-                  TreeSelect
-                  TreeSelect.TreeNode
-                  Tree.TreeNode
                   Upload])
 
 (def props '[locales])

@@ -6,6 +6,10 @@
   (:require-macros [antizer.macros :refer [export-funcs export-props export-form-funcs
                                            export-reagent-components]]))
 
+(defn to-content-state
+  [val]
+  ((getValueByKeys js/antd "Mention" "toContentState") val))
+
 (defn create-form
   "Calls Form.create() decorator with the form to be created. form can be
    any hiccup form. Accepts the following options:
